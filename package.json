@@ -3,11 +3,10 @@
 	"version": "0.1.1",
 	"description": "Display images in the terminal",
 	"license": "MIT",
-	"repository": "sindresorhus/terminal-image",
+	"repository": "pau1fitz/terminal-image",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"name": "Paul Fitzgerald",
+		"email": "paulfitz99@gmail.com",
 	},
 	"engines": {
 		"node": ">=8"
