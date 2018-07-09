@@ -1,12 +1,13 @@
 {
-	"name": "pau1fitz/terminal-image",
+	"name": "terminal-image",
 	"version": "0.1.1",
 	"description": "Display images in the terminal",
 	"license": "MIT",
-	"repository": "pau1fitz/terminal-image",
+	"repository": "sindresorhus/terminal-image",
 	"author": {
-		"name": "Paul Fitzgerald",
-		"email": "paulfitz99@gmail.com",
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
 	},
 	"engines": {
 		"node": ">=8"
@@ -46,4 +47,5 @@
 		"ava": "*",
 		"xo": "*"
 	}
+
 }
