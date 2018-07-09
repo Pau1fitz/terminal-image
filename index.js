@@ -36,10 +36,10 @@ async function render(buffer) {
 	return ret;
 }
 
-exports.buffer = async buffer => {
+exports.buffer = async (buffer, options) => {
 	return termImg.string(buffer, {
-		width: '100%',
-		height: '100%',
+		width: options.width || '100%',
+		height: options.height || '100%',
 		fallback: () => render(buffer)
 	});
 };
